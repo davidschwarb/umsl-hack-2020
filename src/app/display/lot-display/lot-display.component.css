@@ -1,0 +1,17 @@
+.lotDisplayWrapper {
+    padding-left: 25px;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 10px;
+    border: 1px solid #333333;
+}
+
+.lotDisplayWrapper:hover {
+    background: #ededed;
+    cursor: pointer;
+}
+
+.lotName {
+    font-size: 1.5rem;
+}
+
