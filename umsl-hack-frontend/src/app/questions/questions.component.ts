@@ -8,6 +8,7 @@ import {Observable, of} from 'rxjs';
 })
 export class QuestionsComponent implements OnInit {
   northCampusBuildings$: Observable<string[]>;
+  firstBuilding: string;
   arriveTime: string;
   timeSlotIndex: number;
   model = 1;
@@ -23,6 +24,7 @@ export class QuestionsComponent implements OnInit {
 
   handleBuildingClick(building: string) {
       console.log(building);
+      this.firstBuilding = building;
   }
 
   handleTimeClicked(time: string) {
@@ -34,5 +36,12 @@ export class QuestionsComponent implements OnInit {
       }
       console.log(time, this.timeSlotIndex);
       this.arriveTime = time;
+  }
+
+  handleSubmitClicked() {
+      localStorage.setItem('submittedForm', 'yes');
+      localStorage.setItem('building', this.firstBuilding);
+      localStorage.setItem('timeSlot', this.timeSlotIndex.toString());
+      window.location.href = '/lot-finder';
   }
 }

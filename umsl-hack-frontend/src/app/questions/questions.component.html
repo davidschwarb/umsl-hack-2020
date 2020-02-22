@@ -44,7 +44,7 @@
             </div>
         </div>
         <div class="row d-flex justify-content-center mt-3">
-            <button class="btn btn-outline-success px-5">Submit</button>
+            <button class="btn btn-outline-success px-5" [disabled]="model == 1 || arriveTime == null" (click)="handleSubmitClicked()">Submit</button>
         </div>
     </div>
 </div>
