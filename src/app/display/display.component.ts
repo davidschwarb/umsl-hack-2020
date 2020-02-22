@@ -6,10 +6,19 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./display.component.css']
 })
 export class DisplayComponent implements OnInit {
+  public schoolName = 'UMSL';
+  public lotNames = [
+    'Lot A',
+    'Lot B',
+    'Lot C'
+  ];
+  public selectedLot;
 
   constructor() { }
 
   ngOnInit(): void {
+    this.lotNames = ['Lot X', 'Lot Y', 'Lot Z'];
   }
+
 
 }
