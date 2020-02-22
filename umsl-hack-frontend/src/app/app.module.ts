@@ -14,6 +14,7 @@ import { NotFoundComponent } from './not-found/not-found.component';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
 import {FormsModule} from '@angular/forms';
+import {HttpClientModule} from '@angular/common/http';
 
 const appRoutes: Routes = [
   {
@@ -43,14 +44,15 @@ const appRoutes: Routes = [
     LotDisplayComponent,
     MapComponent,
     DashboardComponent,
-    NotFoundComponent
+    NotFoundComponent,
   ],
   imports: [
     RouterModule.forRoot(appRoutes, {enableTracing: true}),
     BrowserModule,
     BrowserAnimationsModule,
     NgbModule,
-    FormsModule
+    FormsModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

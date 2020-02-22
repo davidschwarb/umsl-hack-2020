@@ -5,7 +5,7 @@
     <div class="formContainer">
         <div class="d-flex justify-content-center row">
             <div class="campusChoices">
-                <h4>Pick your campus:</h4>
+                <h4>Pick your side of campus:</h4>
                 <div class="btn-group btn-group-toggle d-flex justify-content-center" ngbRadioGroup name="radioBasic" [(ngModel)]="model">
                     <label ngbButtonLabel class="btn-primary">
                         <input ngbButton type="radio" value="south"> South
@@ -32,7 +32,7 @@
             <div class="buildingSelect mt-3">
                 <div class="col">
                     <div ngbDropdown class="d-inline-block">
-                        <button class="btn btn-outline-primary" id="dropdownBasic2" ngbDropdownToggle>Where do you arrive</button>
+                        <button class="btn btn-outline-primary" id="dropdownBasic2" ngbDropdownToggle>When do you arrive?</button>
                         <div ngbDropdownMenu aria-labelledby="dropdownBasic1">
                             <button (click)="handleTimeClicked('Before 9:15')" ngbDropdownItem>Before 9:15</button>
                             <button (click)="handleTimeClicked('9:15 - 1:45')" ngbDropdownItem>9:15 - 1:45</button>
