@@ -17,7 +17,7 @@ export class DisplayComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
-    this.lotNames = ['Lot X', 'Lot Y', 'Lot Z'];
+
   }
 
 
