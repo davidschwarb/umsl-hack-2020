@@ -9,7 +9,33 @@ import { QuestionsComponent } from './questions/questions.component';
 import { LotDisplayComponent } from './display/lot-display/lot-display.component';
 import { MapComponent } from './display/map/map.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
-import {AppRoutingModule} from './app-routing.module';
+import { RouterModule} from '@angular/router';
+import { Routes } from '@angular/router';
+import { NotFoundComponent } from './not-found/not-found.component';
+
+const appRoutes: Routes = [
+  {
+    path: 'login',
+    component: LoginComponent,
+    data: { title: 'Login' }
+  },
+  {
+    path: 'lot-finder',
+    component: DisplayComponent,
+    data: { title: 'Best Lots' }
+  },
+  {
+    path: 'information',
+    component: QuestionsComponent,
+    data: { title: 'Questionnaire' }
+  },
+  { path: '',
+    redirectTo: '/login',
+    pathMatch: 'full'
+  },
+  { path: '**',
+    component: NotFoundComponent }
+];
 
 @NgModule({
   declarations: [
@@ -20,11 +46,12 @@ import {AppRoutingModule} from './app-routing.module';
     QuestionsComponent,
     LotDisplayComponent,
     MapComponent,
-    DashboardComponent
+    DashboardComponent,
+    NotFoundComponent
   ],
   imports: [
-    AppRoutingModule,
-    BrowserModule
+      RouterModule.forRoot(appRoutes, { enableTracing: true }),
+      BrowserModule
   ],
   providers: [],
   bootstrap: [AppComponent]
