@@ -7,11 +7,13 @@ import {Component, Input, OnInit} from '@angular/core';
 })
 export class LotDisplayComponent implements OnInit {
   @Input() lotName;
+
   constructor() {
     console.log(this.lotName);
   }
 
   ngOnInit(): void {
+
   }
 
   lotClickHandler() {

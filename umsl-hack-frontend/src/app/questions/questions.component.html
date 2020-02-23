@@ -8,7 +8,7 @@
                 <h4>Pick your side of campus:</h4>
                 <div class="btn-group btn-group-toggle d-flex justify-content-center" ngbRadioGroup name="radioBasic" [(ngModel)]="model">
                     <label ngbButtonLabel class="btn-primary">
-                        <input ngbButton #local (click)="handleCampusSelected('south')" type="radio" value="south"> South
+                        <input ngbButton (click)="handleCampusSelected('south')" type="radio" value="south"> South
                     </label>
                     <label ngbButtonLabel class="btn-primary">
                         <input ngbButton (click)="handleCampusSelected('north')" type="radio" value="north"> North
@@ -25,9 +25,11 @@
                             <button *ngFor="let building of specificCampusBuildings" (click)="handleBuildingClick(building)" ngbDropdownItem>{{building}}</button>
                         </div>
                     </div>
-                    <p class="mt-3 mb-0 text-center">{{longName}}</p>
                 </div>
             </div>
+        </div>
+        <div class="row d-flex justify-content-center">
+            <p class="mt-3 mb-0 text-center">{{longName}}</p>
         </div>
         <div class="row d-flex justify-content-center">
             <div class="buildingSelect mt-3">
@@ -46,7 +48,7 @@
             </div>
         </div>
         <div class="row d-flex justify-content-center mt-3">
-            <button class="btn btn-outline-success px-5" [disabled]="model == 1 || arriveTime == null" (click)="handleSubmitClicked()">Submit</button>
+            <a></a><button class="btn btn-outline-success px-5" [disabled]="model == 1 || arriveTime == null" (click)="handleSubmitClicked()">Submit</button>
         </div>
     </div>
 </div>
