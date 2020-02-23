@@ -15,6 +15,8 @@ import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
 import {FormsModule} from '@angular/forms';
 import {HttpClientModule} from '@angular/common/http';
+import { CheerioComponent } from './cheerio/cheerio.component';
+import { JFeedComponent } from './j-feed/j-feed.component';
 
 const appRoutes: Routes = [
   {
@@ -45,6 +47,8 @@ const appRoutes: Routes = [
     MapComponent,
     DashboardComponent,
     NotFoundComponent,
+    CheerioComponent,
+    JFeedComponent,
   ],
   imports: [
     RouterModule.forRoot(appRoutes, {enableTracing: true}),
