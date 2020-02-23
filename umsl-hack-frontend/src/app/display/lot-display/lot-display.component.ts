@@ -6,10 +6,9 @@ import {Component, Input, OnInit} from '@angular/core';
   styleUrls: ['./lot-display.component.css']
 })
 export class LotDisplayComponent implements OnInit {
-  @Input() lotName;
+  @Input() lotDetails: any;
 
   constructor() {
-    console.log(this.lotName);
   }
 
   ngOnInit(): void {
@@ -17,6 +16,6 @@ export class LotDisplayComponent implements OnInit {
   }
 
   lotClickHandler() {
-      window.location.href = `https://www.google.com/maps/place/UMSL+Parking+${this.lotName}`;
+      window.open(`https://www.google.com/maps/place/@${this.lotDetails.lat},${this.lotDetails.long},18z`);
   }
 }
