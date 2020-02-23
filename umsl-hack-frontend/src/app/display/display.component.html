@@ -1,7 +1,9 @@
 
 <br />
 <div class="backdrop">
-    <h2 style="color: rgb(233, 235, 235);">Here are our top pics for parking at {{schoolName}}: </h2>
-    <h3 style="color: rgb(233, 235, 235);">Click the lot to open a map.</h3>
+    <h2 class="header" style="color: rgb(233, 235, 235); border-bottom: 1px solid white; margin-bottom: 25px">Here is our parking recommendation based on your schedule: </h2>
+    <h3 style="color: rgb(233, 235, 235); font-size: 1.5rem; padding-bottom: 15px;">Click the lot to open a map:</h3>
     <app-lot-display *ngFor="let detailsObj of lotObj" [lotDetails]="detailsObj"></app-lot-display>
 </div>
+
+<app-event-blurb></app-event-blurb>

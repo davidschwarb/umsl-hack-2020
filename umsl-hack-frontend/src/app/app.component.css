@@ -1,7 +1,8 @@
 body {
     background-image: url("/assets/left.jpg");
     background-color: #cccccc;
+    padding-top: 56px;
     background-position: full;
     background-position: center;
-    height: 130vh;
+    height: 100vh;
    }

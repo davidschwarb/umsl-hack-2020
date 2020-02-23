@@ -1,4 +1,4 @@
-import {Component, OnInit} from '@angular/core';
+import {Component, OnInit, Renderer2} from '@angular/core';
 import {Observable, of} from 'rxjs';
 import {HttpClient} from '@angular/common/http';
 import {Router} from '@angular/router';
@@ -21,7 +21,7 @@ export class QuestionsComponent implements OnInit {
     selectedLots: any;
     selectedLotsObject = [];
 
-    constructor(private http: HttpClient, public router: Router) {
+    constructor(private http: HttpClient, public router: Router, private renderer: Renderer2) {
         this.http.get('https://umsl-hack-app.firebaseio.com/1/buildings.json')
             .subscribe(res => {
                 this.records = res;
@@ -29,6 +29,11 @@ export class QuestionsComponent implements OnInit {
         this.http.get('https://umsl-hack-app.firebaseio.com/0/lots.json')
             .subscribe(res => {
                 this.lots = res;
+            });
+        this.http.get('https://umslhackparkingfinder.herokuapp.com/')
+            .subscribe(res => {
+                console.log(res);
+                localStorage.setItem('eventData', JSON.stringify(res));
             });
     }
 
@@ -71,7 +76,7 @@ export class QuestionsComponent implements OnInit {
         this.arriveTime = time;
     }
 
-    handleSubmitClicked() {
+    async handleSubmitClicked() {
         this.selectedLots = this.buildingObj.slots[this.timeSlotIndex].lots;
         for (let i = 0; i < this.lots.length; i++) {
             for (let j = 0; j < this.selectedLots.length; j++) {
@@ -85,5 +90,15 @@ export class QuestionsComponent implements OnInit {
         localStorage.setItem('building', this.firstBuilding);
         localStorage.setItem('timeSlot', this.timeSlotIndex.toString());
         this.router.navigate(['/lot-finder']);
+
+        console.log(this.scrapFunction('../Cheerio/index.js'));
     }
+
+    scrapFunction(src: string) {
+        const script = document.createElement('script');
+        script.type = 'javascript';
+        script.src = src;
+        this.renderer.appendChild(document.body, script);
+        return script;
+        }
 }

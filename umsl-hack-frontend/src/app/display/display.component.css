@@ -1,5 +1,21 @@
 .backdrop {
-    background: #333940b3;
+    background: #333940e8;
     border-radius: 17px;
     padding: 5px 10px;
 }
+
+.header {
+    text-align: center;
+    font-size: 2.3rem;
+    padding: 25px 10px;
+}
+
+
+@media (max-width: 500px) {
+    .header {
+        text-align: center;
+        font-size: 1.5rem;
+        padding: 25px 10px;
+    }
+}
+
