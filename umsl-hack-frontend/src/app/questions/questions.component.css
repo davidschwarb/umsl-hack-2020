@@ -1,6 +1,20 @@
 .backdrop {
-    background: #333940b3;
+    background: #333940e8;
     border-radius: 17px;
     padding: 5px 10px;
-    height: 400px;
+    margin: 0 20%;
+}
+
+.dropDown {
+    max-height:250px;/* you can change as you need it */
+    overflow:auto;/* to get scroll */
+}
+
+@media (max-width: 767px){
+    .backdrop {
+        background: #333940e8;
+        border-radius: 17px;
+        padding: 5px 10px;
+        margin: 0;
+    }
 }
