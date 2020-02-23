@@ -27,6 +27,11 @@ const appRoutes: Routes = [
     component: QuestionsComponent,
     data: { title: 'Questionnaire' }
   },
+  {
+    path: 'information',
+    component: QuestionsComponent,
+    data: { title: 'Questionnaire' }
+  },
   { path: '',
     redirectTo: '/information',
     pathMatch: 'full'
@@ -47,7 +52,7 @@ const appRoutes: Routes = [
     NotFoundComponent,
   ],
   imports: [
-    RouterModule.forRoot(appRoutes, {enableTracing: true}),
+    RouterModule.forRoot(appRoutes),
     BrowserModule,
     BrowserAnimationsModule,
     NgbModule,
