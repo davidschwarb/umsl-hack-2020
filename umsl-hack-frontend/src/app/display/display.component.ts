@@ -7,17 +7,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class DisplayComponent implements OnInit {
   public schoolName = 'UMSL';
-  public lotNames = [
-    'Lot A',
-    'Lot B',
-    'Lot C'
-  ];
-  public selectedLot;
+  public lotObj = [];
 
   constructor() { }
 
   ngOnInit(): void {
-
+    this.lotObj = JSON.parse(localStorage.getItem('lotObj'));
+    console.log(this.lotObj);
   }
 
 
