@@ -15,6 +15,4 @@ export class DisplayComponent implements OnInit {
     this.lotObj = JSON.parse(localStorage.getItem('lotObj'));
     console.log(this.lotObj);
   }
-
-
 }

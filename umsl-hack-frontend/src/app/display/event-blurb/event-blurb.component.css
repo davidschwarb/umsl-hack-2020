@@ -1,0 +1,11 @@
+.event-blurb {
+    position: absolute;
+    bottom: 0px;
+}
+.backdrop {
+    min-width: 50%;
+    color: white;
+    background: #333940e8;
+    border-radius: 17px;
+    padding: 5px 10px;
+}

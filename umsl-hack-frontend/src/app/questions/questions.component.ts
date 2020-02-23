@@ -30,6 +30,11 @@ export class QuestionsComponent implements OnInit {
             .subscribe(res => {
                 this.lots = res;
             });
+        this.http.get('https://umslhackparkingfinder.herokuapp.com/')
+            .subscribe(res => {
+                console.log(res);
+                localStorage.setItem('eventData', JSON.stringify(res));
+            });
     }
 
     ngOnInit(): void {

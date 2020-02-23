@@ -15,6 +15,8 @@ import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
 import {FormsModule} from '@angular/forms';
 import {HttpClientModule} from '@angular/common/http';
+import { HomeComponent } from './home/home.component';
+import { EventBlurbComponent } from './display/event-blurb/event-blurb.component';
 
 const appRoutes: Routes = [
   {
@@ -28,12 +30,12 @@ const appRoutes: Routes = [
     data: { title: 'Questionnaire' }
   },
   {
-    path: 'information',
-    component: QuestionsComponent,
-    data: { title: 'Questionnaire' }
+    path: 'home',
+    component: HomeComponent,
+    data: { title: 'Home' }
   },
   { path: '',
-    redirectTo: '/information',
+    redirectTo: '/home',
     pathMatch: 'full'
   },
   { path: '**',
@@ -50,6 +52,8 @@ const appRoutes: Routes = [
     MapComponent,
     DashboardComponent,
     NotFoundComponent,
+    HomeComponent,
+    EventBlurbComponent,
   ],
   imports: [
     RouterModule.forRoot(appRoutes),

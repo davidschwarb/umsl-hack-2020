@@ -18,3 +18,8 @@
         margin: 0;
     }
 }
+
+.btn:disabled {
+    border-color: #808080;
+    color: #808080;
+}
