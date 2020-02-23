@@ -1,1084 +1,1428 @@
-{
-  "buildings": [
-    {
-      "name": "Regional Center for Education and Work",
-      "acronym": "RCEW",
-      "campus": "north",
-      "slots": [
-        {
-          "name": "before 9:15am",
-          "lots": [10],
-          "facultyLotss": [28,26,22]
-        },
-        {
-          "name": "between 9:15am and 1:45pm",
-          "lots": [10],
-          "facultyLotss": [28,26,22]
-        },
-        {
-          "name": "Between 1:45pm and 5:30pm",
-          "lots": [10,22],
-          "facultyLots": [28,26,22]
-        },
-        {
-          "name": "After 5:30pm",
-          "lots": [10,22],
-          "facultyLots": [28,26,22]
-        }
-      ]
-    },
-    {
-      "name": "Mark Twain Building",
-      "acronym": "MTB",
-      "campus": "north",
-      "slots": [
-        {
-          "name": "before 9:15am",
-          "lots": [10,8],
-          "facultyLots": [10,26,28]
-        },
-        {
-          "name": "between 9:15am and 1:45pm",
-          "lots": [10,8],
-          "facultyLots": [10,26,28]
-        },
-        {
-          "name": "Between 1:45pm and 5:30pm",
-          "lots": [10,8],
-          "facultyLots": [10,26,28]
-        },
-        {
-          "name": "After 5:30pm",
-          "lots": [10,8],
-          "facultyLots": [10,26,28]
-        }
-      ]
-    },
-    {
-      "name": "Arts Administration Building",
-      "acronym": "AAB",
-      "campus": "north",
-      "slots": [
-        {
-          "name": "before 9:15am",
-          "lots": [8],
-          "facultyLots": [6,8]
-        },
-        {
-          "name": "between 9:15am and 1:45pm",
-          "lots": [8],
-          "facultyLots": [6,8]
-        },
-        {
-          "name": "Between 1:45pm and 5:30pm",
-          "lots": [8],
-          "facultyLots": [6,8]
-        },
-        {
-          "name": "After 5:30pm",
-          "lots": [8],
-          "facultyLots": [6,8]
-        }
-      ]
-    },
-    {
-      "name": "Blanche M. Touhill Performing Arts Center",
-      "acronym": "PAC",
-      "campus": "north",
-      "slots": [
-        {
-          "name": "before 9:15am",
-          "lots": [8],
-          "facultyLots": [6,8,4]
-        },
-        {
-          "name": "between 9:15am and 1:45pm",
-          "lots": [8],
-          "facultyLots": [6,8,4]
-        },
-        {
-          "name": "Between 1:45pm and 5:30pm",
-          "lots": [8],
-          "facultyLots": [6,8,4]
-        },
-        {
-          "name": "After 5:30pm",
-          "lots": [8],
-          "facultyLots": [6,8,4]
-        }
-      ]
-    },
-    {
-      "name": "Campus Police Building",
-      "acronym": "CPB",
-      "campus": "north",
-      "slots": [
-        {
-          "name": "before 9:15am",
-          "lots": [3,11],
-          "facultyLots": [4,3,11]
-        },
-        {
-          "name": "between 9:15am and 1:45pm",
-          "lots": [11],
-          "facultyLots": [4,11]
-        },
-        {
-          "name": "Between 1:45pm and 5:30pm",
-          "lots": [3,11],
-          "facultyLots": [4,3,11]
-        },
-        {
-          "name": "After 5:30pm",
-          "lots": [3,11],
-          "facultyLots": [4,3,11]
-        }
-      ]
-    },
-    {
-      "name": "Millenium Student Center",
-      "acronym": "MSC",
-      "campus": "north",
-      "slots": [
-        {
-          "name": "before 9:15am",
-          "lots": [3,8],
-          "facultyLots": [3,5,14]
-        },
-        {
-          "name": "between 9:15am and 1:45pm",
-          "lots": [8],
-          "facultyLots": [8]
-        },
-        {
-          "name": "Between 1:45pm and 5:30pm",
-          "lots": [3,8],
-          "facultyLots": [3,5,14]
-        },
-        {
-          "name": "After 5:30pm",
-          "lots": [3,8],
-          "facultyLots": [3,5,14]
-        }
-      ]
-    },
-    {
-      "name": "Recreation and Wellness Center",
-      "acronym": "RWC",
-      "campus": "north",
-      "slots": [
-        {
-          "name": "before 9:15am",
-          "lots": [12,11],
-          "facultyLots": [12,11]
-        },
-        {
-          "name": "between 9:15am and 1:45pm",
-          "lots": [12,11],
-          "facultyLots": [12,11]
-        },
-        {
-          "name": "Between 1:45pm and 5:30pm",
-          "lots": [12,11],
-          "facultyLots": [12,11]
-        },
-        {
-          "name": "After 5:30pm",
-          "lots": [12,11],
-          "facultyLots": [12,11]
-        }
-      ]
-    },
-    {
-      "name": "Anheuser-Busch Hall",
-      "acronym": "ABH",
-      "campus": "north",
-      "slots": [
-        {
-          "name": "before 9:15am",
-          "lots": [14,29,5],
-          "facultyLots": [22,14,29]
-        },
-        {
-          "name": "between 9:15am and 1:45pm",
-          "lots": [8],
-          "facultyLots": [22,14,29]
-        },
-        {
-          "name": "Between 1:45pm and 5:30pm",
-          "lots": [14,29,5],
-          "facultyLots": [22,14,29]
-        },
-        {
-          "name": "After 5:30pm",
-          "lots": [22,14,29],
-          "facultyLots": [22,14,29]
-        }
-      ]
-    },
-    {
-      "name": "Express Scripts Hall",
-      "acronym": "ESH",
-      "campus": "north",
-      "slots": [
-        {
-          "name": "before 9:15am",
-          "lots": [14,5,29],
-          "facultyLots": [14,5,29]
-        },
-        {
-          "name": "between 9:15am and 1:45pm",
-          "lots": [5,8],
-          "facultyLots": [5,8]
-        },
-        {
-          "name": "Between 1:45pm and 5:30pm",
-          "lots": [14,5,29],
-          "facultyLots": [14,5,29]
-        },
-        {
-          "name": "After 5:30pm",
-          "lots": [14,5,29],
-          "facultyLots": [14,5,29]
-        }
-      ]
-    },
-    {
-      "name": "Lucas Hall",
-      "acronym": "LH",
-      "campus": "north",
-      "slots": [
-        {
-          "name": "before 9:15am",
-          "lots": [5,8,29],
-          "facultyLots": [5,8,29]
-        },
-        {
-          "name": "between 9:15am and 1:45pm",
-          "lots": [8,11],
-          "facultyLots": [8,11]
-        },
-        {
-          "name": "Between 1:45pm and 5:30pm",
-          "lots": [8,12],
-          "facultyLots": [8,12]
-        },
-        {
-          "name": "After 5:30pm",
-          "lots": [5,8,29],
-          "facultyLots": [5,8,29]
-        }
-      ]
-    },
-    {
-      "name": "Social Science and Business Building",
-      "acronym": "SSB",
-      "campus": "north",
-      "slots": [
-        {
-          "name": "before 9:15am",
-          "lots": [29,14],
-          "facultyLots": [29,22,14]
-        },
-        {
-          "name": "between 9:15am and 1:45pm",
-          "lots": [29,14],
-          "facultyLots": [29,22,14]
-        },
-        {
-          "name": "Between 1:45pm and 5:30pm",
-          "lots": [29,14],
-          "facultyLots": [29,22,14]
-        },
-        {
-          "name": "After 5:30pm",
-          "lots": [29,22,14],
-          "facultyLots": [29,22,14]
-        }
-      ]
-    },
-    {
-      "name": "Clark Hall",
-      "acronym": "CH",
-      "campus": "north",
-      "slots": [
-        {
-          "name": "before 9:15am",
-          "lots": [14,29],
-          "facultyLots": [22,14,29]
-        },
-        {
-          "name": "between 9:15am and 1:45pm",
-          "lots": [14,29],
-          "facultyLots": [22,14,29]
-        },
-        {
-          "name": "Between 1:45pm and 5:30pm",
-          "lots": [14,29],
-          "facultyLots": [22,14,29]
-        },
-        {
-          "name": "After 5:30pm",
-          "lots": [22,14,29],
-          "facultyLots": [22,14,29]
-        }
-      ]
-    },
-    {
-      "name": "Thomas Jefferson Library",
-      "acronym": "TJL",
-      "campus": "north",
-      "slots": [
-        {
-          "name": "before 9:15am",
-          "lots": [14,29,8],
-          "facultyLots": [14,29,8]
-        },
-        {
-          "name": "between 9:15am and 1:45pm",
-          "lots": [8],
-          "facultyLots": [8]
-        },
-        {
-          "name": "Between 1:45pm and 5:30pm",
-          "lots": [14,29,8],
-          "facultyLots": [14,29,8]
-        },
-        {
-          "name": "After 5:30pm",
-          "lots": [14,29,8],
-          "facultyLots": [14,29,8]
-        }
-      ]
-    },
-    {
-      "name": "St. Louis Mercantile Library",
-      "acronym": "SLML",
-      "campus": "north",
-      "slots": [
-        {
-          "name": "before 9:15am",
-          "lots": [14,29,8],
-          "facultyLots": [14,29,8]
-        },
-        {
-          "name": "between 9:15am and 1:45pm",
-          "lots": [8],
-          "facultyLots": [8]
-        },
-        {
-          "name": "Between 1:45pm and 5:30pm",
-          "lots": [14,29,8],
-          "facultyLots": [14,29,8]
-        },
-        {
-          "name": "After 5:30pm",
-          "lots": [14,29,8],
-          "facultyLots": [14,29,8]
-        }
-      ]
-    },
-    {
-      "name": "J.C. Penney Building",
-      "acronym": "JCP",
-      "campus": "north",
-      "slots": [
-        {
-          "name": "before 9:15am",
-          "lots": [29,8],
-          "facultyLots": [1,2,0]
-        },
-        {
-          "name": "between 9:15am and 1:45pm",
-          "lots": [8],
-          "facultyLots": [1,2,0]
-        },
-        {
-          "name": "Between 1:45pm and 5:30pm",
-          "lots": [29,8],
-          "facultyLots": [1,2,0]
-        },
-        {
-          "name": "After 5:30pm",
-          "lots": [29,8],
-          "facultyLots": [1,2,0]
-        }
-      ]
-    },
-    {
-      "name": "Woods Hall",
-      "acronym": "WH",
-      "campus": "north",
-      "slots": [
-        {
-          "name": "before 9:15am",
-          "lots": [29],
-          "facultyLots": [0,1,17]
-        },
-        {
-          "name": "between 9:15am and 1:45pm",
-          "lots": [29],
-          "facultyLots": [0,1,17]
-        },
-        {
-          "name": "Between 1:45pm and 5:30pm",
-          "lots": [29],
-          "facultyLots": [0,1,17]
-        },
-        {
-          "name": "After 5:30pm",
-          "lots": [29],
-          "facultyLots": [0,1,17]
-        }
-      ]
-    },
-    {
-      "name": "Stadler Hall",
-      "acronym": "SH",
-      "campus": "north",
-      "slots": [
-        {
-          "name": "before 9:15am",
-          "lots": [29,12],
-          "facultyLots": [19,18,17]
-        },
-        {
-          "name": "between 9:15am and 1:45pm",
-          "lots": [29,12],
-          "facultyLots": [19,18,17]
-        },
-        {
-          "name": "Between 1:45pm and 5:30pm",
-          "lots": [29,12],
-          "facultyLots": [19,18,17]
-        },
-        {
-          "name": "After 5:30pm",
-          "lots": [22,29,12],
-          "facultyLots": [19,18,17]
-        }
-      ]
-    },
-    {
-      "name": "Research Building",
-      "acronym": "RB",
-      "campus": "north",
-      "slots": [
-        {
-          "name": "before 9:15am",
-          "lots": [29,12],
-          "facultyLots": [19,18,17]
-        },
-        {
-          "name": "between 9:15am and 1:45pm",
-          "lots": [29,12],
-          "facultyLots": [19,18,17]
-        },
-        {
-          "name": "Between 1:45pm and 5:30pm",
-          "lots": [29,12],
-          "facultyLots": [19,18,17]
-        },
-        {
-          "name": "After 5:30pm",
-          "lots": [22,29,12],
-          "facultyLots": [19,18,17]
-        }
-      ]
-    },
-    {
-      "name": "Science Learning Building",
-      "acronym": "SLB",
-      "campus": "north",
-      "slots": [
-        {
-          "name": "before 9:15am",
-          "lots": [29,12],
-          "facultyLots": [19,18,17]
-        },
-        {
-          "name": "between 9:15am and 1:45pm",
-          "lots": [29,12],
-          "facultyLots": [19,18,17]
-        },
-        {
-          "name": "Between 1:45pm and 5:30pm",
-          "lots": [29,12],
-          "facultyLots": [19,18,17]
-        },
-        {
-          "name": "After 5:30pm",
-          "lots": [22,29,12],
-          "facultyLots": [19,18,17]
-        }
-      ]
-    },
-    {
-      "name": "Benton Hall",
-      "acronym": "BH",
-      "campus": "north",
-      "slots": [
-        {
-          "name": "before 9:15am",
-          "lots": [29,12],
-          "facultyLots": [19,18,17]
-        },
-        {
-          "name": "between 9:15am and 1:45pm",
-          "lots": [29,12],
-          "facultyLots": [19,18,17]
-        },
-        {
-          "name": "Between 1:45pm and 5:30pm",
-          "lots": [29,12],
-          "facultyLots": [19,18,17]
-        },
-        {
-          "name": "After 5:30pm",
-          "lots": [22,29,12],
-          "facultyLots": [19,18,17]
-        }
-      ]
-    },
-    {
-      "name": "William L. Clay Center for Nanoscience",
-      "acronym": "CNS",
-      "campus": "north",
-      "slots": [
-        {
-          "name": "before 9:15am",
-          "lots": [29,12],
-          "facultyLots": [19,18,17]
-        },
-        {
-          "name": "between 9:15am and 1:45pm",
-          "lots": [29,12],
-          "facultyLots": [19,18,17]
-        },
-        {
-          "name": "Between 1:45pm and 5:30pm",
-          "lots": [29,12],
-          "facultyLots": [19,18,17]
-        },
-        {
-          "name": "After 5:30pm",
-          "lots": [22,29,12],
-          "facultyLots": [19,18,17]
-        }
-      ]
-    },
-    {
-      "name": "Anheuser-Busch Ecology and Conservation Complex",
-      "acronym": "ABE",
-      "campus": "north",
-      "slots": [
-        {
-          "name": "before 9:15am",
-          "lots": [29,12],
-          "facultyLots": [19,18,17]
-        },
-        {
-          "name": "between 9:15am and 1:45pm",
-          "lots": [29,12],
-          "facultyLots": [19,18,17]
-        },
-        {
-          "name": "Between 1:45pm and 5:30pm",
-          "lots": [29,12],
-          "facultyLots": [19,18,17]
-        },
-        {
-          "name": "After 5:30pm",
-          "lots": [22,29,12],
-          "facultyLots": [19,18,17]
-        }
-      ]
-    },
-    {
-      "name": "Sculpture and Ceramics Annex",
-      "acronym": "SCA",
-      "campus": "north",
-      "slots": [
-        {
-          "name": "before 9:15am",
-          "lots": [33],
-          "facultyLots": [33]
-        },
-        {
-          "name": "between 9:15am and 1:45pm",
-          "lots": [33],
-          "facultyLots": [33]
-        },
-        {
-          "name": "Between 1:45pm and 5:30pm",
-          "lots": [33],
-          "facultyLots": [33]
-        },
-        {
-          "name": "After 5:30pm",
-          "lots": [33],
-          "facultyLots": [33]
-        }
-      ]
-    },
-    {
-      "name": "Fine Arts Building",
-      "acronym": "FAB",
-      "campus": "north",
-      "slots": [
-        {
-          "name": "before 9:15am",
-          "lots": [24],
-          "facultyLots": [24]
-        },
-        {
-          "name": "between 9:15am and 1:45pm",
-          "lots": [24],
-          "facultyLots": [24]
-        },
-        {
-          "name": "Between 1:45pm and 5:30pm",
-          "lots": [24],
-          "facultyLots": [24]
-        },
-        {
-          "name": "After 5:30pm",
-          "lots": [24],
-          "facultyLots": [24]
-        }
-      ]
-    },
-    {
-      "name": "Richard D. Schwartz Observatory",
-      "acronym": "RSO",
-      "campus": "north",
-      "slots": [
-        {
-          "name": "before 9:15am",
-          "lots": [24],
-          "facultyLots": [24]
-        },
-        {
-          "name": "between 9:15am and 1:45pm",
-          "lots": [24],
-          "facultyLots": [24]
-        },
-        {
-          "name": "Between 1:45pm and 5:30pm",
-          "lots": [24],
-          "facultyLots": [24]
-        },
-        {
-          "name": "After 5:30pm",
-          "lots": [24],
-          "facultyLots": [24]
-        }
-      ]
-    },
-    {
-      "name": "Music Building",
-      "acronym": "MB",
-      "campus": "south",
-      "slots": [
-        {
-          "name": "before 9:15am",
-          "lots": [21],
-          "facultyLots": [21]
-        },
-        {
-          "name": "between 9:15am and 1:45pm",
-          "lots": [21],
-          "facultyLots": [21]
-        },
-        {
-          "name": "Between 1:45pm and 5:30pm",
-          "lots": [21],
-          "facultyLots": [21]
-        },
-        {
-          "name": "After 5:30pm",
-          "lots": [21],
-          "facultyLots": [21]
-        }
-      ]
-    },
-    {
-      "name": "Sassin Building & ELS Language Centers - St. Louis",
-      "acronym": "SAS",
-      "campus": "south",
-      "slots": [
-        {
-          "name": "before 9:15am",
-          "lots": [21],
-          "facultyLots": [21]
-        },
-        {
-          "name": "between 9:15am and 1:45pm",
-          "lots": [21],
-          "facultyLots": [21]
-        },
-        {
-          "name": "Between 1:45pm and 5:30pm",
-          "lots": [21],
-          "facultyLots": [21]
-        },
-        {
-          "name": "After 5:30pm",
-          "lots": [21],
-          "facultyLots": [21]
-        }
-      ]
-    },
-    {
-      "name": "Patient Care Center",
-      "acronym": "PCC",
-      "campus": "south",
-      "slots": [
-        {
-          "name": "before 9:15am",
-          "lots": [16,21],
-          "facultyLots": [16,21]
-        },
-        {
-          "name": "between 9:15am and 1:45pm",
-          "lots": [16,21],
-          "facultyLots": [16,21]
-        },
-        {
-          "name": "Between 1:45pm and 5:30pm",
-          "lots": [16,21],
-          "facultyLots": [16,21]
-        },
-        {
-          "name": "After 5:30pm",
-          "lots": [16,21],
-          "facultyLots": [16,21]
-        }
-      ]
-    },
-    {
-      "name": "Bellerive Hall",
-      "acronym": "BRH",
-      "campus": "south",
-      "slots": [
-        {
-          "name": "before 9:15am",
-          "lots": [15,25,27],
-          "facultyLots": [15,25,27]
-        },
-        {
-          "name": "between 9:15am and 1:45pm",
-          "lots": [15,25,27],
-          "facultyLots": [15,25,27]
-        },
-        {
-          "name": "Between 1:45pm and 5:30pm",
-          "lots": [15,25,27],
-          "facultyLots": [15,25,27]
-        },
-        {
-          "name": "After 5:30pm",
-          "lots": [15,25,27],
-          "facultyLots": [15,25,27]
-        }
-      ]
-    },
-    {
-      "name": "Marillac Hall",
-      "acronym": "MH",
-      "campus": "south",
-      "slots": [
-        {
-          "name": "before 9:15am",
-          "lots": [13,27],
-          "facultyLots": [13,27]
-        },
-        {
-          "name": "between 9:15am and 1:45pm",
-          "lots": [13,27],
-          "facultyLots": [13,27]
-        },
-        {
-          "name": "Between 1:45pm and 5:30pm",
-          "lots": [13,27],
-          "facultyLots": [13,27]
-        },
-        {
-          "name": "After 5:30pm",
-          "lots": [13,27],
-          "facultyLots": [13,27]
-        }
-      ]
-    },
-    {
-      "name": "E. Desmond Lee Technology & Learning Center & Math & Science Education Central",
-      "acronym": "TLC",
-      "campus": "south",
-      "slots": [
-        {
-          "name": "before 9:15am",
-          "lots": [13,27,31],
-          "facultyLots": [13,27,31]
-        },
-        {
-          "name": "between 9:15am and 1:45pm",
-          "lots": [13,27,31],
-          "facultyLots": [13,27,31]
-        },
-        {
-          "name": "Between 1:45pm and 5:30pm",
-          "lots": [13,27,31],
-          "facultyLots": [13,27,31]
-        },
-        {
-          "name": "After 5:30pm",
-          "lots": [13,27,31],
-          "facultyLots": [13,27,31]
-        }
-      ]
-    },
-    {
-      "name": "Education Administration Building",
-      "acronym": "EAB",
-      "campus": "south",
-      "slots": [
-        {
-          "name": "before 9:15am",
-          "lots": [13,31,27],
-          "facultyLots": [13,31,27]
-        },
-        {
-          "name": "between 9:15am and 1:45pm",
-          "lots": [13,31,27],
-          "facultyLots": [13,31,27]
-        },
-        {
-          "name": "Between 1:45pm and 5:30pm",
-          "lots": [13,31,27],
-          "facultyLots": [13,31,27]
-        },
-        {
-          "name": "After 5:30pm",
-          "lots": [13,31,27],
-          "facultyLots": [13,31,27]
-        }
-      ]
-    },
-    {
-      "name": "South Campus Classroom Building & Child Development Center",
-      "acronym": "SCCB",
-      "campus": "south",
-      "slots": [
-        {
-          "name": "before 9:15am",
-          "lots": [31,13,27],
-          "facultyLots": [31,13,27]
-        },
-        {
-          "name": "between 9:15am and 1:45pm",
-          "lots": [31,13,27],
-          "facultyLots": [31,13,27]
-        },
-        {
-          "name": "Between 1:45pm and 5:30pm",
-          "lots": [31,13,27],
-          "facultyLots": [31,13,27]
-        },
-        {
-          "name": "After 5:30pm",
-          "lots": [31,13,27],
-          "facultyLots": [31,13,27]
-        }
-      ]
-    },
-    {
-      "name": "Ward E. Barnes Building",
-      "acronym": "WEB",
-      "campus": "south",
-      "slots": [
-        {
-          "name": "before 9:15am",
-          "lots": [31,13,27],
-          "facultyLots": [31,13,27]
-        },
-        {
-          "name": "between 9:15am and 1:45pm",
-          "lots": [31,13,27],
-          "facultyLots": [31,13,27]
-        },
-        {
-          "name": "Between 1:45pm and 5:30pm",
-          "lots": [31,13,27],
-          "facultyLots": [31,13,27]
-        },
-        {
-          "name": "After 5:30pm",
-          "lots": [31,13,27],
-          "facultyLots": [31,13,27]
-        }
-      ]
-    },
-    {
-      "name": "Boilder Garage / Surplus Property",
-      "acronym": "BG",
-      "campus": "south",
-      "slots": [
-        {
-          "name": "before 9:15am",
-          "lots": [32,31],
-          "facultyLots": [32,31]
-        },
-        {
-          "name": "between 9:15am and 1:45pm",
-          "lots": [32,31],
-          "facultyLots": [32,31]
-        },
-        {
-          "name": "Between 1:45pm and 5:30pm",
-          "lots": [32,31],
-          "facultyLots": [32,31]
-        },
-        {
-          "name": "After 5:30pm",
-          "lots": [32,31],
-          "facultyLots": [32,31]
-        }
-      ]
-    },
-    {
-      "name": "South Campus Computer Building",
-      "acronym": "SCB",
-      "campus": "south",
-      "slots": [
-        {
-          "name": "before 9:15am",
-          "lots": [32,31,7],
-          "facultyLots": [32,31,7]
-        },
-        {
-          "name": "between 9:15am and 1:45pm",
-          "lots": [32,31,7],
-          "facultyLots": [32,31,7]
-        },
-        {
-          "name": "Between 1:45pm and 5:30pm",
-          "lots": [32,31,7],
-          "facultyLots": [32,31,7]
-        },
-        {
-          "name": "After 5:30pm",
-          "lots": [32,31,7],
-          "facultyLots": [32,31,7]
-        }
-      ]
-    },
-    {
-      "name": "Provincial House",
-      "acronym": "PH",
-      "campus": "south",
-      "slots": [
-        {
-          "name": "before 9:15am",
-          "lots": [7,9,32],
-          "facultyLots": [7,9,32]
-        },
-        {
-          "name": "between 9:15am and 1:45pm",
-          "lots": [7,9,32],
-          "facultyLots": [7,9,32]
-        },
-        {
-          "name": "Between 1:45pm and 5:30pm",
-          "lots": [7,9,32],
-          "facultyLots": [7,9,32]
-        },
-        {
-          "name": "After 5:30pm",
-          "lots": [7,9,32],
-          "facultyLots": [7,9,32]
-        }
-      ]
-    },
-    {
-      "name": "Pierre Laclede Honors College",
-      "acronym": "HC",
-      "campus": "south",
-      "slots": [
-        {
-          "name": "before 9:15am",
-          "lots": [7,9,32],
-          "facultyLots": [7,9,32]
-        },
-        {
-          "name": "between 9:15am and 1:45pm",
-          "lots": [7,9,32],
-          "facultyLots": [7,9,32]
-        },
-        {
-          "name": "Between 1:45pm and 5:30pm",
-          "lots": [7,9,32],
-          "facultyLots": [7,9,32]
-        },
-        {
-          "name": "After 5:30pm",
-          "lots": [7,9,32],
-          "facultyLots": [7,9,32]
-        }
-      ]
-    },
-    {
-      "name": "Seton Center Hall",
-      "acronym": "SC",
-      "campus": "south",
-      "slots": [
-        {
-          "name": "before 9:15am",
-          "lots": [9,7,20],
-          "facultyLots": [9,7,20]
-        },
-        {
-          "name": "between 9:15am and 1:45pm",
-          "lots": [9,7,20],
-          "facultyLots": [9,7,20]
-        },
-        {
-          "name": "Between 1:45pm and 5:30pm",
-          "lots": [9,7,20],
-          "facultyLots": [9,7,20]
-        },
-        {
-          "name": "After 5:30pm",
-          "lots": [9,7,20],
-          "facultyLots": [9,7,20]
-        }
-      ]
-    },
-    {
-      "name": "Nursing Administration Building",
-      "acronym": "NAB",
-      "campus": "south",
-      "slots": [
-        {
-          "name": "before 9:15am",
-          "lots": [20,9],
-          "facultyLots": [20,9]
-        },
-        {
-          "name": "between 9:15am and 1:45pm",
-          "lots": [20,9],
-          "facultyLots": [20,9]
-        },
-        {
-          "name": "Between 1:45pm and 5:30pm",
-          "lots": [20,9],
-          "facultyLots": [20,9]
-        },
-        {
-          "name": "After 5:30pm",
-          "lots": [20,9],
-          "facultyLots": [20,9]
-        }
-      ]
-    }
-  ]
-}
+"key":  {
+    "lots": [
+      {
+        "id": 0,
+        "name": "Lot A",
+        "streetAddress": "Grobman Dr",
+        "City": "Normandy",
+        "State": "MO",
+        "zipCode": "63121",
+        "lat": 38.708101,
+        "long": -90.309617
+      },
+      {
+        "id": 1,
+        "name": "Lot B",
+        "streetAddress": "Grobman Dr",
+        "City": "Normandy",
+        "State": "MO",
+        "zipCode": "63121",
+        "lat": 38.708535,
+        "long": -90.309825
+      },
+      {
+        "id": 2,
+        "name": "Lot C",
+        "streetAddress": "Clark Hall Dr",
+        "City": "Normandy",
+        "State": "MO",
+        "zipCode": "63121",
+        "lat": 38.70947,
+        "long": -90.308973
+      },
+      {
+        "id": 3,
+        "name": "Lot E",
+        "streetAddress": "Touhill Cir",
+        "City": "Normandy",
+        "State": "MO",
+        "zipCode": "63121",
+        "lat": 38.711755,
+        "long": -90.307663
+      },
+      {
+        "id": 4,
+        "name": "Lot F",
+        "streetAddress": "Performance Dr",
+        "City": "Normandy",
+        "State": "MO",
+        "zipCode": "63121",
+        "lat": 38.712654,
+        "long": -90.306849
+      },
+      {
+        "id": 5,
+        "name": "Lot I",
+        "streetAddress": "Lucas Dr",
+        "City": "Normandy",
+        "State": "MO",
+        "zipCode": "63121",
+        "lat": 38.71246,
+        "long": -90.309645
+      },
+      {
+        "id": 6,
+        "name": "Lot J",
+        "streetAddress": "West Dr",
+        "City": "Normandy",
+        "State": "MO",
+        "zipCode": "63121",
+        "lat": 38.712017,
+        "long": -90.31115
+      },
+      {
+        "id": 7,
+        "name": "Lot JJ",
+        "streetAddress": "Laclede Ln",
+        "city": "Normandy",
+        "State": "MO",
+        "zipCode": "63121",
+        "lat": 38.702294,
+        "long": -90.305415
+      },
+      {
+        "id": 8,
+        "name": "Lot K",
+        "streetAddress": "West Dr",
+        "city": "Normandy",
+        "State": "MO",
+        "zipCode": "63121",
+        "lat": 38.71498,
+        "long": -90.310123
+      },
+      {
+        "id": 9,
+        "name": "Lot KK",
+        "streetAddress": "South Campus East Dr",
+        "city": "Normandy",
+        "State": "MO",
+        "zipCode": "63121",
+        "lat": 38.700682,
+        "long": -90.305016
+      },
+      {
+        "id": 10,
+        "name": "Lot M",
+        "streetAddress": "Mark Twain Dr",
+        "city": "Normandy",
+        "State": "MO",
+        "zipCode": "63121",
+        "lat": 38.717285,
+        "long": -90.3086
+      },
+      {
+        "id": 11,
+        "name": "Millenium Garage North MGN",
+        "streetAddress": "Grobman Dr",
+        "city": "Normandy",
+        "State": "MO",
+        "zipCode": "63121",
+        "lat": 38.712446,
+        "long": -90.306006
+      },
+      {
+        "id": 12,
+        "name": "Millenium Garage South MGS",
+        "streetAddress": "Grobman Dr",
+        "city": "Normandy",
+        "State": "MO",
+        "zipCode": "63121",
+        "lat": 38.710986,
+        "long": -90.30668
+      },
+      {
+        "id": 13,
+        "name": "Lot MM",
+        "streetAddress": "Marilla Dr",
+        "city": "Normandy",
+        "State": "MO",
+        "zipCode": "63121",
+        "lat": 38.703595,
+        "long": -90.307796
+      },
+      {
+        "id": 14,
+        "name": "Lot N",
+        "streetAddress": "Lucas Dr",
+        "city": "Normandy",
+        "State": "MO",
+        "zipCode": "63121",
+        "lat": 38.713301,
+        "long": -90.31081
+      },
+      {
+        "id": 15,
+        "name": "Lot NN",
+        "streetAddress": "Marilla Dr",
+        "city": "Normandy",
+        "State": "MO",
+        "zipCode": "63121",
+        "lat": 38.704183,
+        "long": -90.309159
+      },
+      {
+        "id": 16,
+        "name": "Lot OO",
+        "streetAddress": "Marilla Dr",
+        "city": "Normandy",
+        "State": "MO",
+        "zipCode": "63121",
+        "lat": 38.706178,
+        "long": -90.307275
+      },
+      {
+        "id": 17,
+        "name": "Lot P",
+        "streetAddress": "Stadler Ct",
+        "city": "Normandy",
+        "State": "MO",
+        "zipCode": "63121",
+        "lat": 38.707775,
+        "long": -90.31167
+      },
+      {
+        "id": 18,
+        "name": "Lot Q",
+        "streetAddress": "Benton Ct",
+        "city": "Normandy",
+        "State": "MO",
+        "zipCode": "63121",
+        "lat": 38.70746,
+        "long": -90.313584
+      },
+      {
+        "id": 19,
+        "name": "Lot R",
+        "streetAddress": "West Dr",
+        "city": "Normandy",
+        "State": "MO",
+        "zipCode": "63121",
+        "lat": 38.708065,
+        "long": -90.313831
+      },
+      {
+        "id": 20,
+        "name": "Lot SCG",
+        "streetAddress": "South Campus East Dr",
+        "city": "Normandy",
+        "State": "MO",
+        "zipCode": "63121",
+        "lat": 38.700722,
+        "long": -90.304891
+      },
+      {
+        "id": 21,
+        "name": "Lot SS",
+        "streetAddress": "South Campus East Dr",
+        "city": "Normandy",
+        "State": "MO",
+        "zipCode": "63121",
+        "lat": 38.70688,
+        "long": -90.308818
+      },
+      {
+        "id": 22,
+        "name": "Street",
+        "streetAddress": "West Dr",
+        "city": "Normandy",
+        "State": "MO",
+        "zipCode": "63121",
+        "lat": 38.710366,
+        "long": -90.312402
+      },
+      {
+        "id": 23,
+        "name": "Lot TT",
+        "streetAddress": "Marilla Dr",
+        "city": "Normandy",
+        "State": "MO",
+        "zipCode": "63121",
+        "lat": 38.705197,
+        "long": -90.306672
+      },
+      {
+        "id": 24,
+        "name": "Lot U",
+        "streetAddress": "Rosedale Dr",
+        "city": "Normandy",
+        "State": "MO",
+        "zipCode": "63121",
+        "lat": 38.712912,
+        "long": -90.302273
+      },
+      {
+        "id": 25,
+        "name": "Lot UU",
+        "streetAddress": "South Campus East Dr",
+        "city": "Normandy",
+        "State": "MO",
+        "zipCode": "63121",
+        "lat": 38.704939,
+        "long": -90.309084
+      },
+      {
+        "id": 26,
+        "name": "Lot V",
+        "streetAddress": "Clark Hall Dr",
+        "city": "Normandy",
+        "State": "MO",
+        "zipCode": "63121",
+        "lat": 38.716727,
+        "long": -90.307098
+      },
+      {
+        "id": 27,
+        "name": "Lot VV",
+        "streetAddress": "Marilla Dr",
+        "city": "Normandy",
+        "State": "MO",
+        "zipCode": "63121",
+        "lat": 38.704535,
+        "long": -90.307657
+      },
+      {
+        "id": 28,
+        "name": "Lot W",
+        "streetAddress": "Mark Twain Dr",
+        "city": "Normandy",
+        "State": "MO",
+        "zipCode": "63121",
+        "lat": 38.717469,
+        "long": -90.306528
+      },
+      {
+        "id": 29,
+        "name": "West Drive Garage South WDGS",
+        "streetAddress": "West Dr",
+        "city": "Normandy",
+        "State": "MO",
+        "zipCode": "63121",
+        "lat": 38.710329,
+        "long": -90.31206
+      },
+      {
+        "id": 30,
+        "name": "Lot WW",
+        "streetAddress": "Weinman Way",
+        "city": "Normandy",
+        "State": "MO",
+        "zipCode": "63121",
+        "lat": 38.704496,
+        "long": -90.306715
+      },
+      {
+        "id": 31,
+        "name": "Lot XX",
+        "streetAddress": "South Dr",
+        "city": "Normandy",
+        "State": "MO",
+        "zipCode": "63121",
+        "lat": 38.703036,
+        "long": -90.306247
+      },
+      {
+        "id": 32,
+        "name": "Lot YY",
+        "streetAddress": "Marilla Dr",
+        "city": "Normandy",
+        "State": "MO",
+        "zipCode": "63121",
+        "lat": 38.702192,
+        "long": -90.307229
+      },
+      {
+        "id": 33,
+        "name": "Sculpture and Ceramics Annex SCA",
+        "streetAddress": "7875 Florissant Rd",
+        "city": "Normandy",
+        "State": "MO",
+        "zipCode": "63121",
+        "lat": 38.713594,
+        "long": -90.304109
+      }
+    ]
+  },
+  {
+    "buildings": [
+      {
+        "name": "Regional Center for Education and Work",
+        "acronym": "RCEW",
+        "campus": "north",
+        "slots": [
+          {
+            "name": "before 9:15am",
+            "lots": [10],
+            "facultyLotss": [28, 26, 22]
+          },
+          {
+            "name": "between 9:15am and 1:45pm",
+            "lots": [10],
+            "facultyLotss": [28, 26, 22]
+          },
+          {
+            "name": "Between 1:45pm and 5:30pm",
+            "lots": [10, 22],
+            "facultyLots": [28, 26, 22]
+          },
+          {
+            "name": "After 5:30pm",
+            "lots": [10, 22],
+            "facultyLots": [28, 26, 22]
+          }
+        ]
+      },
+      {
+        "name": "Mark Twain Building",
+        "acronym": "MTB",
+        "campus": "north",
+        "slots": [
+          {
+            "name": "before 9:15am",
+            "lots": [10, 8],
+            "facultyLots": [10, 26, 28]
+          },
+          {
+            "name": "between 9:15am and 1:45pm",
+            "lots": [10, 8],
+            "facultyLots": [10, 26, 28]
+          },
+          {
+            "name": "Between 1:45pm and 5:30pm",
+            "lots": [10, 8],
+            "facultyLots": [10, 26, 28]
+          },
+          {
+            "name": "After 5:30pm",
+            "lots": [10, 8],
+            "facultyLots": [10, 26, 28]
+          }
+        ]
+      },
+      {
+        "name": "Arts Administration Building",
+        "acronym": "AAB",
+        "campus": "north",
+        "slots": [
+          {
+            "name": "before 9:15am",
+            "lots": [8],
+            "facultyLots": [6, 8]
+          },
+          {
+            "name": "between 9:15am and 1:45pm",
+            "lots": [8],
+            "facultyLots": [6, 8]
+          },
+          {
+            "name": "Between 1:45pm and 5:30pm",
+            "lots": [8],
+            "facultyLots": [6, 8]
+          },
+          {
+            "name": "After 5:30pm",
+            "lots": [8],
+            "facultyLots": [6, 8]
+          }
+        ]
+      },
+      {
+        "name": "Blanche M. Touhill Performing Arts Center",
+        "acronym": "PAC",
+        "campus": "north",
+        "slots": [
+          {
+            "name": "before 9:15am",
+            "lots": [8],
+            "facultyLots": [6, 8, 4]
+          },
+          {
+            "name": "between 9:15am and 1:45pm",
+            "lots": [8],
+            "facultyLots": [6, 8, 4]
+          },
+          {
+            "name": "Between 1:45pm and 5:30pm",
+            "lots": [8],
+            "facultyLots": [6, 8, 4]
+          },
+          {
+            "name": "After 5:30pm",
+            "lots": [8],
+            "facultyLots": [6, 8, 4]
+          }
+        ]
+      },
+      {
+        "name": "Campus Police Building",
+        "acronym": "CPB",
+        "campus": "north",
+        "slots": [
+          {
+            "name": "before 9:15am",
+            "lots": [3, 11],
+            "facultyLots": [4, 3, 11]
+          },
+          {
+            "name": "between 9:15am and 1:45pm",
+            "lots": [11],
+            "facultyLots": [4, 11]
+          },
+          {
+            "name": "Between 1:45pm and 5:30pm",
+            "lots": [3, 11],
+            "facultyLots": [4, 3, 11]
+          },
+          {
+            "name": "After 5:30pm",
+            "lots": [3, 11],
+            "facultyLots": [4, 3, 11]
+          }
+        ]
+      },
+      {
+        "name": "Millenium Student Center",
+        "acronym": "MSC",
+        "campus": "north",
+        "slots": [
+          {
+            "name": "before 9:15am",
+            "lots": [3, 8],
+            "facultyLots": [3, 5, 14]
+          },
+          {
+            "name": "between 9:15am and 1:45pm",
+            "lots": [8],
+            "facultyLots": [8]
+          },
+          {
+            "name": "Between 1:45pm and 5:30pm",
+            "lots": [3, 8],
+            "facultyLots": [3, 5, 14]
+          },
+          {
+            "name": "After 5:30pm",
+            "lots": [3, 8],
+            "facultyLots": [3, 5, 14]
+          }
+        ]
+      },
+      {
+        "name": "Recreation and Wellness Center",
+        "acronym": "RWC",
+        "campus": "north",
+        "slots": [
+          {
+            "name": "before 9:15am",
+            "lots": [12, 11],
+            "facultyLots": [12, 11]
+          },
+          {
+            "name": "between 9:15am and 1:45pm",
+            "lots": [12, 11],
+            "facultyLots": [12, 11]
+          },
+          {
+            "name": "Between 1:45pm and 5:30pm",
+            "lots": [12, 11],
+            "facultyLots": [12, 11]
+          },
+          {
+            "name": "After 5:30pm",
+            "lots": [12, 11],
+            "facultyLots": [12, 11]
+          }
+        ]
+      },
+      {
+        "name": "Anheuser-Busch Hall",
+        "acronym": "ABH",
+        "campus": "north",
+        "slots": [
+          {
+            "name": "before 9:15am",
+            "lots": [14, 29, 5],
+            "facultyLots": [22, 14, 29]
+          },
+          {
+            "name": "between 9:15am and 1:45pm",
+            "lots": [8],
+            "facultyLots": [22, 14, 29]
+          },
+          {
+            "name": "Between 1:45pm and 5:30pm",
+            "lots": [14, 29, 5],
+            "facultyLots": [22, 14, 29]
+          },
+          {
+            "name": "After 5:30pm",
+            "lots": [22, 14, 29],
+            "facultyLots": [22, 14, 29]
+          }
+        ]
+      },
+      {
+        "name": "Express Scripts Hall",
+        "acronym": "ESH",
+        "campus": "north",
+        "slots": [
+          {
+            "name": "before 9:15am",
+            "lots": [14, 5, 29],
+            "facultyLots": [14, 5, 29]
+          },
+          {
+            "name": "between 9:15am and 1:45pm",
+            "lots": [5, 8],
+            "facultyLots": [5, 8]
+          },
+          {
+            "name": "Between 1:45pm and 5:30pm",
+            "lots": [14, 5, 29],
+            "facultyLots": [14, 5, 29]
+          },
+          {
+            "name": "After 5:30pm",
+            "lots": [14, 5, 29],
+            "facultyLots": [14, 5, 29]
+          }
+        ]
+      },
+      {
+        "name": "Lucas Hall",
+        "acronym": "LH",
+        "campus": "north",
+        "slots": [
+          {
+            "name": "before 9:15am",
+            "lots": [5, 8, 29],
+            "facultyLots": [5, 8, 29]
+          },
+          {
+            "name": "between 9:15am and 1:45pm",
+            "lots": [8, 11],
+            "facultyLots": [8, 11]
+          },
+          {
+            "name": "Between 1:45pm and 5:30pm",
+            "lots": [8, 12],
+            "facultyLots": [8, 12]
+          },
+          {
+            "name": "After 5:30pm",
+            "lots": [5, 8, 29],
+            "facultyLots": [5, 8, 29]
+          }
+        ]
+      },
+      {
+        "name": "Social Science and Business Building",
+        "acronym": "SSB",
+        "campus": "north",
+        "slots": [
+          {
+            "name": "before 9:15am",
+            "lots": [29, 14],
+            "facultyLots": [29, 22, 14]
+          },
+          {
+            "name": "between 9:15am and 1:45pm",
+            "lots": [29, 14],
+            "facultyLots": [29, 22, 14]
+          },
+          {
+            "name": "Between 1:45pm and 5:30pm",
+            "lots": [29, 14],
+            "facultyLots": [29, 22, 14]
+          },
+          {
+            "name": "After 5:30pm",
+            "lots": [29, 22, 14],
+            "facultyLots": [29, 22, 14]
+          }
+        ]
+      },
+      {
+        "name": "Clark Hall",
+        "acronym": "CH",
+        "campus": "north",
+        "slots": [
+          {
+            "name": "before 9:15am",
+            "lots": [14, 29],
+            "facultyLots": [22, 14, 29]
+          },
+          {
+            "name": "between 9:15am and 1:45pm",
+            "lots": [14, 29],
+            "facultyLots": [22, 14, 29]
+          },
+          {
+            "name": "Between 1:45pm and 5:30pm",
+            "lots": [14, 29],
+            "facultyLots": [22, 14, 29]
+          },
+          {
+            "name": "After 5:30pm",
+            "lots": [22, 14, 29],
+            "facultyLots": [22, 14, 29]
+          }
+        ]
+      },
+      {
+        "name": "Thomas Jefferson Library",
+        "acronym": "TJL",
+        "campus": "north",
+        "slots": [
+          {
+            "name": "before 9:15am",
+            "lots": [14, 29, 8],
+            "facultyLots": [14, 29, 8]
+          },
+          {
+            "name": "between 9:15am and 1:45pm",
+            "lots": [8],
+            "facultyLots": [8]
+          },
+          {
+            "name": "Between 1:45pm and 5:30pm",
+            "lots": [14, 29, 8],
+            "facultyLots": [14, 29, 8]
+          },
+          {
+            "name": "After 5:30pm",
+            "lots": [14, 29, 8],
+            "facultyLots": [14, 29, 8]
+          }
+        ]
+      },
+      {
+        "name": "St. Louis Mercantile Library",
+        "acronym": "SLML",
+        "campus": "north",
+        "slots": [
+          {
+            "name": "before 9:15am",
+            "lots": [14, 29, 8],
+            "facultyLots": [14, 29, 8]
+          },
+          {
+            "name": "between 9:15am and 1:45pm",
+            "lots": [8],
+            "facultyLots": [8]
+          },
+          {
+            "name": "Between 1:45pm and 5:30pm",
+            "lots": [14, 29, 8],
+            "facultyLots": [14, 29, 8]
+          },
+          {
+            "name": "After 5:30pm",
+            "lots": [14, 29, 8],
+            "facultyLots": [14, 29, 8]
+          }
+        ]
+      },
+      {
+        "name": "J.C. Penney Building",
+        "acronym": "JCP",
+        "campus": "north",
+        "slots": [
+          {
+            "name": "before 9:15am",
+            "lots": [29, 8],
+            "facultyLots": [1, 2, 0]
+          },
+          {
+            "name": "between 9:15am and 1:45pm",
+            "lots": [8],
+            "facultyLots": [1, 2, 0]
+          },
+          {
+            "name": "Between 1:45pm and 5:30pm",
+            "lots": [29, 8],
+            "facultyLots": [1, 2, 0]
+          },
+          {
+            "name": "After 5:30pm",
+            "lots": [29, 8],
+            "facultyLots": [1, 2, 0]
+          }
+        ]
+      },
+      {
+        "name": "Woods Hall",
+        "acronym": "WH",
+        "campus": "north",
+        "slots": [
+          {
+            "name": "before 9:15am",
+            "lots": [29],
+            "facultyLots": [0, 1, 17]
+          },
+          {
+            "name": "between 9:15am and 1:45pm",
+            "lots": [29],
+            "facultyLots": [0, 1, 17]
+          },
+          {
+            "name": "Between 1:45pm and 5:30pm",
+            "lots": [29],
+            "facultyLots": [0, 1, 17]
+          },
+          {
+            "name": "After 5:30pm",
+            "lots": [29],
+            "facultyLots": [0, 1, 17]
+          }
+        ]
+      },
+      {
+        "name": "Stadler Hall",
+        "acronym": "SH",
+        "campus": "north",
+        "slots": [
+          {
+            "name": "before 9:15am",
+            "lots": [29, 12],
+            "facultyLots": [19, 18, 17]
+          },
+          {
+            "name": "between 9:15am and 1:45pm",
+            "lots": [29, 12],
+            "facultyLots": [19, 18, 17]
+          },
+          {
+            "name": "Between 1:45pm and 5:30pm",
+            "lots": [29, 12],
+            "facultyLots": [19, 18, 17]
+          },
+          {
+            "name": "After 5:30pm",
+            "lots": [22, 29, 12],
+            "facultyLots": [19, 18, 17]
+          }
+        ]
+      },
+      {
+        "name": "Research Building",
+        "acronym": "RB",
+        "campus": "north",
+        "slots": [
+          {
+            "name": "before 9:15am",
+            "lots": [29, 12],
+            "facultyLots": [19, 18, 17]
+          },
+          {
+            "name": "between 9:15am and 1:45pm",
+            "lots": [29, 12],
+            "facultyLots": [19, 18, 17]
+          },
+          {
+            "name": "Between 1:45pm and 5:30pm",
+            "lots": [29, 12],
+            "facultyLots": [19, 18, 17]
+          },
+          {
+            "name": "After 5:30pm",
+            "lots": [22, 29, 12],
+            "facultyLots": [19, 18, 17]
+          }
+        ]
+      },
+      {
+        "name": "Science Learning Building",
+        "acronym": "SLB",
+        "campus": "north",
+        "slots": [
+          {
+            "name": "before 9:15am",
+            "lots": [29, 12],
+            "facultyLots": [19, 18, 17]
+          },
+          {
+            "name": "between 9:15am and 1:45pm",
+            "lots": [29, 12],
+            "facultyLots": [19, 18, 17]
+          },
+          {
+            "name": "Between 1:45pm and 5:30pm",
+            "lots": [29, 12],
+            "facultyLots": [19, 18, 17]
+          },
+          {
+            "name": "After 5:30pm",
+            "lots": [22, 29, 12],
+            "facultyLots": [19, 18, 17]
+          }
+        ]
+      },
+      {
+        "name": "Benton Hall",
+        "acronym": "BH",
+        "campus": "north",
+        "slots": [
+          {
+            "name": "before 9:15am",
+            "lots": [29, 12],
+            "facultyLots": [19, 18, 17]
+          },
+          {
+            "name": "between 9:15am and 1:45pm",
+            "lots": [29, 12],
+            "facultyLots": [19, 18, 17]
+          },
+          {
+            "name": "Between 1:45pm and 5:30pm",
+            "lots": [29, 12],
+            "facultyLots": [19, 18, 17]
+          },
+          {
+            "name": "After 5:30pm",
+            "lots": [22, 29, 12],
+            "facultyLots": [19, 18, 17]
+          }
+        ]
+      },
+      {
+        "name": "William L. Clay Center for Nanoscience",
+        "acronym": "CNS",
+        "campus": "north",
+        "slots": [
+          {
+            "name": "before 9:15am",
+            "lots": [29, 12],
+            "facultyLots": [19, 18, 17]
+          },
+          {
+            "name": "between 9:15am and 1:45pm",
+            "lots": [29, 12],
+            "facultyLots": [19, 18, 17]
+          },
+          {
+            "name": "Between 1:45pm and 5:30pm",
+            "lots": [29, 12],
+            "facultyLots": [19, 18, 17]
+          },
+          {
+            "name": "After 5:30pm",
+            "lots": [22, 29, 12],
+            "facultyLots": [19, 18, 17]
+          }
+        ]
+      },
+      {
+        "name": "Anheuser-Busch Ecology and Conservation Complex",
+        "acronym": "ABE",
+        "campus": "north",
+        "slots": [
+          {
+            "name": "before 9:15am",
+            "lots": [29, 12],
+            "facultyLots": [19, 18, 17]
+          },
+          {
+            "name": "between 9:15am and 1:45pm",
+            "lots": [29, 12],
+            "facultyLots": [19, 18, 17]
+          },
+          {
+            "name": "Between 1:45pm and 5:30pm",
+            "lots": [29, 12],
+            "facultyLots": [19, 18, 17]
+          },
+          {
+            "name": "After 5:30pm",
+            "lots": [22, 29, 12],
+            "facultyLots": [19, 18, 17]
+          }
+        ]
+      },
+      {
+        "name": "Sculpture and Ceramics Annex",
+        "acronym": "SCA",
+        "campus": "north",
+        "slots": [
+          {
+            "name": "before 9:15am",
+            "lots": [33],
+            "facultyLots": [33]
+          },
+          {
+            "name": "between 9:15am and 1:45pm",
+            "lots": [33],
+            "facultyLots": [33]
+          },
+          {
+            "name": "Between 1:45pm and 5:30pm",
+            "lots": [33],
+            "facultyLots": [33]
+          },
+          {
+            "name": "After 5:30pm",
+            "lots": [33],
+            "facultyLots": [33]
+          }
+        ]
+      },
+      {
+        "name": "Fine Arts Building",
+        "acronym": "FAB",
+        "campus": "north",
+        "slots": [
+          {
+            "name": "before 9:15am",
+            "lots": [24],
+            "facultyLots": [24]
+          },
+          {
+            "name": "between 9:15am and 1:45pm",
+            "lots": [24],
+            "facultyLots": [24]
+          },
+          {
+            "name": "Between 1:45pm and 5:30pm",
+            "lots": [24],
+            "facultyLots": [24]
+          },
+          {
+            "name": "After 5:30pm",
+            "lots": [24],
+            "facultyLots": [24]
+          }
+        ]
+      },
+      {
+        "name": "Richard D. Schwartz Observatory",
+        "acronym": "RSO",
+        "campus": "north",
+        "slots": [
+          {
+            "name": "before 9:15am",
+            "lots": [24],
+            "facultyLots": [24]
+          },
+          {
+            "name": "between 9:15am and 1:45pm",
+            "lots": [24],
+            "facultyLots": [24]
+          },
+          {
+            "name": "Between 1:45pm and 5:30pm",
+            "lots": [24],
+            "facultyLots": [24]
+          },
+          {
+            "name": "After 5:30pm",
+            "lots": [24],
+            "facultyLots": [24]
+          }
+        ]
+      },
+      {
+        "name": "Music Building",
+        "acronym": "MB",
+        "campus": "south",
+        "slots": [
+          {
+            "name": "before 9:15am",
+            "lots": [21],
+            "facultyLots": [21]
+          },
+          {
+            "name": "between 9:15am and 1:45pm",
+            "lots": [21],
+            "facultyLots": [21]
+          },
+          {
+            "name": "Between 1:45pm and 5:30pm",
+            "lots": [21],
+            "facultyLots": [21]
+          },
+          {
+            "name": "After 5:30pm",
+            "lots": [21],
+            "facultyLots": [21]
+          }
+        ]
+      },
+      {
+        "name": "Sassin Building & ELS Language Centers - St. Louis",
+        "acronym": "SAS",
+        "campus": "south",
+        "slots": [
+          {
+            "name": "before 9:15am",
+            "lots": [21],
+            "facultyLots": [21]
+          },
+          {
+            "name": "between 9:15am and 1:45pm",
+            "lots": [21],
+            "facultyLots": [21]
+          },
+          {
+            "name": "Between 1:45pm and 5:30pm",
+            "lots": [21],
+            "facultyLots": [21]
+          },
+          {
+            "name": "After 5:30pm",
+            "lots": [21],
+            "facultyLots": [21]
+          }
+        ]
+      },
+      {
+        "name": "Patient Care Center",
+        "acronym": "PCC",
+        "campus": "south",
+        "slots": [
+          {
+            "name": "before 9:15am",
+            "lots": [16, 21],
+            "facultyLots": [16, 21]
+          },
+          {
+            "name": "between 9:15am and 1:45pm",
+            "lots": [16, 21],
+            "facultyLots": [16, 21]
+          },
+          {
+            "name": "Between 1:45pm and 5:30pm",
+            "lots": [16, 21],
+            "facultyLots": [16, 21]
+          },
+          {
+            "name": "After 5:30pm",
+            "lots": [16, 21],
+            "facultyLots": [16, 21]
+          }
+        ]
+      },
+      {
+        "name": "Bellerive Hall",
+        "acronym": "BRH",
+        "campus": "south",
+        "slots": [
+          {
+            "name": "before 9:15am",
+            "lots": [15, 25, 27],
+            "facultyLots": [15, 25, 27]
+          },
+          {
+            "name": "between 9:15am and 1:45pm",
+            "lots": [15, 25, 27],
+            "facultyLots": [15, 25, 27]
+          },
+          {
+            "name": "Between 1:45pm and 5:30pm",
+            "lots": [15, 25, 27],
+            "facultyLots": [15, 25, 27]
+          },
+          {
+            "name": "After 5:30pm",
+            "lots": [15, 25, 27],
+            "facultyLots": [15, 25, 27]
+          }
+        ]
+      },
+      {
+        "name": "Marillac Hall",
+        "acronym": "MH",
+        "campus": "south",
+        "slots": [
+          {
+            "name": "before 9:15am",
+            "lots": [13, 27],
+            "facultyLots": [13, 27]
+          },
+          {
+            "name": "between 9:15am and 1:45pm",
+            "lots": [13, 27],
+            "facultyLots": [13, 27]
+          },
+          {
+            "name": "Between 1:45pm and 5:30pm",
+            "lots": [13, 27],
+            "facultyLots": [13, 27]
+          },
+          {
+            "name": "After 5:30pm",
+            "lots": [13, 27],
+            "facultyLots": [13, 27]
+          }
+        ]
+      },
+      {
+        "name": "E. Desmond Lee Technology & Learning Center & Math & Science Education Central",
+        "acronym": "TLC",
+        "campus": "south",
+        "slots": [
+          {
+            "name": "before 9:15am",
+            "lots": [13, 27, 31],
+            "facultyLots": [13, 27, 31]
+          },
+          {
+            "name": "between 9:15am and 1:45pm",
+            "lots": [13, 27, 31],
+            "facultyLots": [13, 27, 31]
+          },
+          {
+            "name": "Between 1:45pm and 5:30pm",
+            "lots": [13, 27, 31],
+            "facultyLots": [13, 27, 31]
+          },
+          {
+            "name": "After 5:30pm",
+            "lots": [13, 27, 31],
+            "facultyLots": [13, 27, 31]
+          }
+        ]
+      },
+      {
+        "name": "Education Administration Building",
+        "acronym": "EAB",
+        "campus": "south",
+        "slots": [
+          {
+            "name": "before 9:15am",
+            "lots": [13, 31, 27],
+            "facultyLots": [13, 31, 27]
+          },
+          {
+            "name": "between 9:15am and 1:45pm",
+            "lots": [13, 31, 27],
+            "facultyLots": [13, 31, 27]
+          },
+          {
+            "name": "Between 1:45pm and 5:30pm",
+            "lots": [13, 31, 27],
+            "facultyLots": [13, 31, 27]
+          },
+          {
+            "name": "After 5:30pm",
+            "lots": [13, 31, 27],
+            "facultyLots": [13, 31, 27]
+          }
+        ]
+      },
+      {
+        "name": "South Campus Classroom Building & Child Development Center",
+        "acronym": "SCCB",
+        "campus": "south",
+        "slots": [
+          {
+            "name": "before 9:15am",
+            "lots": [31, 13, 27],
+            "facultyLots": [31, 13, 27]
+          },
+          {
+            "name": "between 9:15am and 1:45pm",
+            "lots": [31, 13, 27],
+            "facultyLots": [31, 13, 27]
+          },
+          {
+            "name": "Between 1:45pm and 5:30pm",
+            "lots": [31, 13, 27],
+            "facultyLots": [31, 13, 27]
+          },
+          {
+            "name": "After 5:30pm",
+            "lots": [31, 13, 27],
+            "facultyLots": [31, 13, 27]
+          }
+        ]
+      },
+      {
+        "name": "Ward E. Barnes Building",
+        "acronym": "WEB",
+        "campus": "south",
+        "slots": [
+          {
+            "name": "before 9:15am",
+            "lots": [31, 13, 27],
+            "facultyLots": [31, 13, 27]
+          },
+          {
+            "name": "between 9:15am and 1:45pm",
+            "lots": [31, 13, 27],
+            "facultyLots": [31, 13, 27]
+          },
+          {
+            "name": "Between 1:45pm and 5:30pm",
+            "lots": [31, 13, 27],
+            "facultyLots": [31, 13, 27]
+          },
+          {
+            "name": "After 5:30pm",
+            "lots": [31, 13, 27],
+            "facultyLots": [31, 13, 27]
+          }
+        ]
+      },
+      {
+        "name": "Boilder Garage / Surplus Property",
+        "acronym": "BG",
+        "campus": "south",
+        "slots": [
+          {
+            "name": "before 9:15am",
+            "lots": [32, 31],
+            "facultyLots": [32, 31]
+          },
+          {
+            "name": "between 9:15am and 1:45pm",
+            "lots": [32, 31],
+            "facultyLots": [32, 31]
+          },
+          {
+            "name": "Between 1:45pm and 5:30pm",
+            "lots": [32, 31],
+            "facultyLots": [32, 31]
+          },
+          {
+            "name": "After 5:30pm",
+            "lots": [32, 31],
+            "facultyLots": [32, 31]
+          }
+        ]
+      },
+      {
+        "name": "South Campus Computer Building",
+        "acronym": "SCB",
+        "campus": "south",
+        "slots": [
+          {
+            "name": "before 9:15am",
+            "lots": [32, 31, 7],
+            "facultyLots": [32, 31, 7]
+          },
+          {
+            "name": "between 9:15am and 1:45pm",
+            "lots": [32, 31, 7],
+            "facultyLots": [32, 31, 7]
+          },
+          {
+            "name": "Between 1:45pm and 5:30pm",
+            "lots": [32, 31, 7],
+            "facultyLots": [32, 31, 7]
+          },
+          {
+            "name": "After 5:30pm",
+            "lots": [32, 31, 7],
+            "facultyLots": [32, 31, 7]
+          }
+        ]
+      },
+      {
+        "name": "Provincial House",
+        "acronym": "PH",
+        "campus": "south",
+        "slots": [
+          {
+            "name": "before 9:15am",
+            "lots": [7, 9, 32],
+            "facultyLots": [7, 9, 32]
+          },
+          {
+            "name": "between 9:15am and 1:45pm",
+            "lots": [7, 9, 32],
+            "facultyLots": [7, 9, 32]
+          },
+          {
+            "name": "Between 1:45pm and 5:30pm",
+            "lots": [7, 9, 32],
+            "facultyLots": [7, 9, 32]
+          },
+          {
+            "name": "After 5:30pm",
+            "lots": [7, 9, 32],
+            "facultyLots": [7, 9, 32]
+          }
+        ]
+      },
+      {
+        "name": "Pierre Laclede Honors College",
+        "acronym": "HC",
+        "campus": "south",
+        "slots": [
+          {
+            "name": "before 9:15am",
+            "lots": [7, 9, 32],
+            "facultyLots": [7, 9, 32]
+          },
+          {
+            "name": "between 9:15am and 1:45pm",
+            "lots": [7, 9, 32],
+            "facultyLots": [7, 9, 32]
+          },
+          {
+            "name": "Between 1:45pm and 5:30pm",
+            "lots": [7, 9, 32],
+            "facultyLots": [7, 9, 32]
+          },
+          {
+            "name": "After 5:30pm",
+            "lots": [7, 9, 32],
+            "facultyLots": [7, 9, 32]
+          }
+        ]
+      },
+      {
+        "name": "Seton Center Hall",
+        "acronym": "SC",
+        "campus": "south",
+        "slots": [
+          {
+            "name": "before 9:15am",
+            "lots": [9, 7, 20],
+            "facultyLots": [9, 7, 20]
+          },
+          {
+            "name": "between 9:15am and 1:45pm",
+            "lots": [9, 7, 20],
+            "facultyLots": [9, 7, 20]
+          },
+          {
+            "name": "Between 1:45pm and 5:30pm",
+            "lots": [9, 7, 20],
+            "facultyLots": [9, 7, 20]
+          },
+          {
+            "name": "After 5:30pm",
+            "lots": [9, 7, 20],
+            "facultyLots": [9, 7, 20]
+          }
+        ]
+      },
+      {
+        "name": "Nursing Administration Building",
+        "acronym": "NAB",
+        "campus": "south",
+        "slots": [
+          {
+            "name": "before 9:15am",
+            "lots": [20, 9],
+            "facultyLots": [20, 9]
+          },
+          {
+            "name": "between 9:15am and 1:45pm",
+            "lots": [20, 9],
+            "facultyLots": [20, 9]
+          },
+          {
+            "name": "Between 1:45pm and 5:30pm",
+            "lots": [20, 9],
+            "facultyLots": [20, 9]
+          },
+          {
+            "name": "After 5:30pm",
+            "lots": [20, 9],
+            "facultyLots": [20, 9]
+          }
+        ]
+      }
+    ]
+  }
