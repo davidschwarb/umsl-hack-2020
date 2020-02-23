@@ -10,6 +10,7 @@
     padding: 25px 10px;
 }
 
+
 @media (max-width: 500px) {
     .header {
         text-align: center;
@@ -17,3 +18,4 @@
         padding: 25px 10px;
     }
 }
+

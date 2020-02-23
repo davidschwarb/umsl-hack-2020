@@ -16,6 +16,7 @@ import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
 import {FormsModule} from '@angular/forms';
 import {HttpClientModule} from '@angular/common/http';
 import { HomeComponent } from './home/home.component';
+import { EventBlurbComponent } from './display/event-blurb/event-blurb.component';
 
 const appRoutes: Routes = [
   {
@@ -52,6 +53,7 @@ const appRoutes: Routes = [
     DashboardComponent,
     NotFoundComponent,
     HomeComponent,
+    EventBlurbComponent,
   ],
   imports: [
     RouterModule.forRoot(appRoutes),
