@@ -1,16 +1,18 @@
+<br />
 <div>
     <div class="d-flex justify-content-center row mt-5">
-        <h3 class="text-center">We will help you find the best spot to park on campus!</h3>
+        <h3 style="color: azure;" class="text-center">We will help you find the best spot to park on campus!</h3>
     </div>
-    <div class="formContainer">
+    <div class="container-fluid">
         <div class="d-flex justify-content-center row">
             <div class="campusChoices">
-                <h4>Pick your side of campus:</h4>
+                <h4 style="color:azure">Pick your side of campus:</h4>
                 <div class="btn-group btn-group-toggle d-flex justify-content-center" ngbRadioGroup name="radioBasic" [(ngModel)]="model">
-                    <label ngbButtonLabel class="btn-primary">
+                    <label ngbButtonLabel class="btn-light">
                         <input ngbButton (click)="handleCampusSelected('south')" type="radio" value="south"> South
                     </label>
-                    <label ngbButtonLabel class="btn-primary">
+                    &nbsp;
+                    <label ngbButtonLabel class="btn-light">
                         <input ngbButton (click)="handleCampusSelected('north')" type="radio" value="north"> North
                     </label>
                 </div>
@@ -20,7 +22,7 @@
             <div class="buildingSelect mt-3">
                 <div class="col">
                     <div ngbDropdown class="d-inline-block">
-                        <button class="btn btn-outline-primary" [disabled]="model == 1" id="dropdownBasic1" ngbDropdownToggle>Where is your first class?</button>
+                        <button class="btn btn-outline-dark" [disabled]="model == 1" id="dropdownBasic1" ngbDropdownToggle>Where is your first class?</button>
                         <div ngbDropdownMenu aria-labelledby="dropdownBasic1">
                             <button *ngFor="let building of specificCampusBuildings" (click)="handleBuildingClick(building)" ngbDropdownItem>{{building}}</button>
                         </div>
@@ -35,7 +37,7 @@
             <div class="buildingSelect mt-3">
                 <div class="col">
                     <div ngbDropdown class="d-inline-block">
-                        <button class="btn btn-outline-primary" id="dropdownBasic2" ngbDropdownToggle>When do you arrive?</button>
+                        <button class="btn btn-outline-light" id="dropdownBasic2" ngbDropdownToggle>When do you arrive?</button>
                         <div ngbDropdownMenu aria-labelledby="dropdownBasic1">
                             <button (click)="handleTimeClicked('Before 9:15')" ngbDropdownItem>Before 9:15</button>
                             <button (click)="handleTimeClicked('9:15 - 1:45')" ngbDropdownItem>9:15 - 1:45</button>
@@ -48,7 +50,7 @@
             </div>
         </div>
         <div class="row d-flex justify-content-center mt-3">
-            <a></a><button class="btn btn-outline-success px-5" [disabled]="model == 1 || arriveTime == null" (click)="handleSubmitClicked()">Submit</button>
+
         </div>
     </div>
 </div>
