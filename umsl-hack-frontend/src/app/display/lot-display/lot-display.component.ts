@@ -17,5 +17,4 @@ export class LotDisplayComponent implements OnInit {
   lotClickHandler() {
       window.location.href = `https://www.google.com/maps/place/UMSL+Parking+${this.lotName}`;
   }
-
 }
