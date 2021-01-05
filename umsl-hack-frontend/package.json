@@ -21,7 +21,7 @@
     "@angular/platform-browser-dynamic": "~9.0.1",
     "@angular/router": "~9.0.1",
     "@ng-bootstrap/ng-bootstrap": "^6.0.0",
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "bootstrap": "^4.4.1",
     "cheerio": "^1.0.0-rc.3",
     "jquery": "^3.4.1",
